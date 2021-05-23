@@ -18,6 +18,7 @@ class MyRoute extends StatelessWidget{
     "Обычно: 1000-1500 руб.\nУ нас: 500-700 руб. с выездом\nи покупкой материалов",
     "Вы знаете, где ваш мастер и когда\nон приедет в нужный день"
   ];
+  // Маленький цветной прямоугольник
   Widget _stepRectangle(int edge, int index)
   {
     final double pad = 5.0;
@@ -117,7 +118,6 @@ class MyStep extends StatelessWidget{
                 child: Text(headText,
                   style: styleHead,
                   textAlign: TextAlign.center,
-                  //textDirection: TextDirection.ltr,
                 ),
               ),
               Padding(
@@ -127,7 +127,6 @@ class MyStep extends StatelessWidget{
                     textAlign: TextAlign.center,
                   )
               ),
-
             ]
         ),
       ),
